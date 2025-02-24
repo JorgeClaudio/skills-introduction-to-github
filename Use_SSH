@@ -12,3 +12,13 @@ Open a terminal or  press >> CRTL + ALT + T
 ssh-keygen -t ed25519 -C "your-github-email@emaildomain.com"
 
 It will prompt you for a name for the file. I like to use "main" but you can do whatever name you like! It's your key afterall.  
+
+Now just start you ssh-agent with: 
+    eval "$(ssh-agent -s)"
+
+It will prompt you with the process id and you're "probably" good to go. 
+
+If you have any issues, call me. I want to help <3
+
+
+Good Luck. 
